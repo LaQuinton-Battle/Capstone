@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>Songs by album</themeName>
+	<themeExplanation>Prints albums from your selected playlist or library. Includes album name, artist name, and  song titles and lengths.</themeExplanation>
+	<themeKind>albumlist</themeKind>
+	<themeSortOrder>1</themeSortOrder>
+	<themeMediaIndex>1</themeMediaIndex>
+</theme>

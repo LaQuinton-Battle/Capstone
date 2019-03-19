@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<media>
+	<mediaName>Plain Paper - Single Side</mediaName>
+	<mediaExplanation>Used for printing a single side insert.</mediaExplanation>
+	<mediaSortOrder>1</mediaSortOrder>
+	<element type="rect">
+		<left parent="cover" kind="absolute">0</left>
+		<right parent="cover" kind="widthAbsoluteCenter">342</right>
+		<top parent="cover" kind="absolute">0</top>
+		<bottom parent="cover" kind="heightAbsoluteCenter">342</bottom>
+		<noFill />
+		<noFrame />
+		<setsContentRect />
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">0</left>
+		<right parent="content" kind="absolute">342</right>
+		<top parent="content" kind="absolute">-36</top>
+		<bottom parent="content" kind="absolute">344</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">-36</left>
+		<right parent="content" kind="absolute">344</right>
+		<top parent="content" kind="absolute">0</top>
+		<bottom parent="content" kind="absolute">342</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">0</left>
+		<right parent="content" kind="absolute">342</right>
+		<top parent="content" kind="absolute">344</top>
+		<bottom parent="content" kind="absolute">-36</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">-36</left>
+		<right parent="content" kind="absolute">344</right>
+		<top parent="content" kind="absolute">342</top>
+		<bottom parent="content" kind="absolute">0</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">342</left>
+		<right parent="content" kind="absolute">0</right>
+		<top parent="content" kind="absolute">-36</top>
+		<bottom parent="content" kind="absolute">344</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">344</left>
+		<right parent="content" kind="absolute">-36</right>
+		<top parent="content" kind="absolute">0</top>
+		<bottom parent="content" kind="absolute">342</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">342</left>
+		<right parent="content" kind="absolute">0</right>
+		<top parent="content" kind="absolute">344</top>
+		<bottom parent="content" kind="absolute">-36</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<element type="line">
+		<left parent="content" kind="absolute">344</left>
+		<right parent="content" kind="absolute">-36</right>
+		<top parent="content" kind="absolute">342</top>
+		<bottom parent="content" kind="absolute">0</bottom>
+		<edgeColor>068, 068, 068</edgeColor>
+		<penSize>0.35</penSize>
+	</element>
+	<cover type="backInsert">
+		<bleedLeft>5</bleedLeft>
+		<bleedTop>5</bleedTop>
+		<bleedRight>5</bleedRight>
+		<bleedBottom>5</bleedBottom>
+	</cover>
+	<resetContent />
+</media>

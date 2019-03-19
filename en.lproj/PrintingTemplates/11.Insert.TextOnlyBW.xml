@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>Text only (Black &amp; White)</themeName>
+	<themeExplanation>A simple text printout of the songs in your selected playlist or library. Prints in black and white.</themeExplanation>
+	<themeKind>insert</themeKind>
+	<themeSortOrder>5</themeSortOrder>
+	<themeMediaIndex>2</themeMediaIndex>
+	<insert>
+		<setDominantColor>255, 255, 255</setDominantColor>
+	</insert>
+	<cover type="frontInsert">
+		<element type="rect">
+			<fillColor>dominantColor</fillColor>
+			<penSize>0.0</penSize>
+		</element>
+		<element type="rect">
+			<contributesToFooter />
+			<noFill />
+			<noFrame />
+			<top kind="percentage">97.0</top>
+		</element>
+		<element type="text">
+			<contributesToFooter />
+			<left parent="content">10</left>
+			<top parent="content">0</top>
+			<right parent="content">10</right>
+			<bottom kind="heightAbsoluteBottom" parent="content">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>24</textSize>
+			<textColor index="0">dominantTextColor</textColor>
+			<textFormat index="0">%PLAYLISTNAME</textFormat>
+			<textJustification index="0">right</textJustification>
+		</element>
+		<element type="text">
+			<contributesToFooter />
+			<left parent="content">10</left>
+			<top parent="content">0</top>
+			<right parent="content">10</right>
+			<bottom kind="heightAbsoluteBottom" parent="content">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>24</textSize>
+			<textColor index="0">dominantTextColor</textColor>
+			<textFormat index="0">%ARTISTNAME</textFormat>
+			<textJustification index="0">right</textJustification>
+		</element>
+	</cover>
+	<cover type="backInsert">
+		<element type="rect">
+			<fillColor>dominantColor</fillColor>
+			<penSize>0.0</penSize>
+		</element>
+		<element type="rect">
+			<contributesToHeader />
+			<noFill />
+			<noFrame />
+			<bottom kind="percentage">90.0</bottom>
+		</element>
+		<element type="rect">
+			<contributesToFooter />
+			<noFill />
+			<noFrame />
+			<top kind="percentage">97.0</top>
+		</element>
+		<element type="rect">
+			<contributesToLeftMargin />
+			<noFill />
+			<noFrame />
+			<right kind="percentage">97.0</right>
+		</element>
+		<element type="rect">
+			<contributesToRightMargin />
+			<noFill />
+			<noFrame />
+			<left kind="percentage">97.0</left>
+		</element>
+		<element type="text">
+			<left parent="footer">0</left>
+			<top parent="footer">0</top>
+			<right parent="footer">0</right>
+			<bottom kind="heightAbsoluteCenter" parent="footer">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>7</textSize>
+			<textColor index="0">dominantTextColor</textColor>
+			<textFormat index="0">%MADEWITHITUNES</textFormat>
+			<textJustification index="0">center</textJustification>
+		</element>
+		<element type="playlist">
+			<left parent="content">5</left>
+			<top parent="content">5</top>
+			<right parent="content">5</right>
+			<bottom parent="content">5</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>12</textSize>
+			<smallestSize>9</smallestSize>
+			<textColor index="0">dominantTextColor</textColor>
+			<textFormat index="0">%TRACKNUMBER.</textFormat>
+			<textJustification index="0">left</textJustification>
+			<textColor index="1">dominantTextColor</textColor>
+			<textFormat index="1">%COMBOTRACKNAMEANDARTIST</textFormat>
+			<textJustification index="1">left</textJustification>
+			<textColor index="2">dominantTextColor</textColor>
+			<textFormat index="2">%TOTALTIME</textFormat>
+			<textJustification index="2">right</textJustification>
+			<overflowFormat>and %TRACKNUMBER more…</overflowFormat>
+		</element>
+		<element type="text">
+			<left parent="content">5</left>
+			<top parent="header">0</top>
+			<right parent="content">5</right>
+			<bottom kind="heightAbsoluteCenter" parent="header">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>14</textSize>
+			<textColor index="0">dominantTextColor</textColor>
+			<textFormat index="0">%COMBOPLAYLISTANDARTIST</textFormat>
+			<textJustification index="0">left</textJustification>
+		</element>
+	</cover>
+</theme>

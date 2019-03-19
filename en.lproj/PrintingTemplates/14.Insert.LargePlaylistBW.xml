@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>Large playlist (Black &amp; White)</themeName>
+	<themeExplanation>Prints an extended playlist or library starting on the front cover and continuing to the back. This is a good choice for playlists with a large number of songs. Prints in black and white.</themeExplanation>
+	<themeKind>insert</themeKind>
+	<themeSortOrder>8</themeSortOrder>
+	<themeMediaIndex>2</themeMediaIndex>
+	<insert>
+	</insert>
+	<cover type="frontInsert">
+		<element type="rect">
+			<fillColor>255, 255, 255</fillColor>
+			<penSize>0.0</penSize>
+		</element>
+		<element type="rect">
+			<contributesToHeader />
+			<noFill />
+			<noFrame />
+			<bottom kind="percentage">95.0</bottom>
+		</element>
+		<element type="rect">
+			<contributesToFooter />
+			<noFill />
+			<noFrame />
+			<top kind="percentage">97.0</top>
+		</element>
+		<element type="rect">
+			<contributesToLeftMargin />
+			<noFill />
+			<noFrame />
+			<right kind="percentage">97.0</right>
+		</element>
+		<element type="rect">
+			<contributesToRightMargin />
+			<noFill />
+			<noFrame />
+			<left kind="percentage">97.0</left>
+		</element>
+		<element type="playlist">
+			<left parent="content">0</left>
+			<top parent="content">5</top>
+			<right parent="content">0</right>
+			<bottom parent="content">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>7</textSize>
+			<smallestSize>7</smallestSize>
+			<maxColumns>2</maxColumns>
+			<textColor index="0">000, 000, 000</textColor>
+			<textFormat index="0">%TRACKNUMBER.</textFormat>
+			<textJustification index="0">left</textJustification>
+			<textColor index="1">000, 000, 000</textColor>
+			<textFormat index="1">%COMBOTRACKNAMEANDARTIST</textFormat>
+			<textJustification index="1">left</textJustification>
+		</element>
+		<element type="text">
+			<left parent="content">5</left>
+			<top parent="header">0</top>
+			<right parent="content">5</right>
+			<bottom kind="heightAbsoluteCenter" parent="header">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>12</textSize>
+			<textColor index="0">000, 000, 000</textColor>
+			<textFormat index="0">%COMBOPLAYLISTANDARTIST</textFormat>
+			<textJustification index="0">left</textJustification>
+		</element>
+	</cover>
+	<cover type="backInsert">
+		<element type="rect">
+			<fillColor>255, 255, 255</fillColor>
+			<penSize>0.0</penSize>
+		</element>
+		<element type="rect">
+			<contributesToHeader />
+			<noFill />
+			<noFrame />
+			<bottom kind="percentage">95.0</bottom>
+		</element>
+		<element type="rect">
+			<contributesToFooter />
+			<noFill />
+			<noFrame />
+			<top kind="percentage">97.0</top>
+		</element>
+		<element type="rect">
+			<contributesToLeftMargin />
+			<noFill />
+			<noFrame />
+			<right kind="percentage">97.0</right>
+		</element>
+		<element type="rect">
+			<contributesToRightMargin />
+			<noFill />
+			<noFrame />
+			<left kind="percentage">97.0</left>
+		</element>
+		<element type="text">
+			<left parent="footer">0</left>
+			<top parent="footer">0</top>
+			<right parent="footer">0</right>
+			<bottom kind="heightAbsoluteCenter" parent="footer">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>7</textSize>
+			<textColor index="0">dominantTextColor</textColor>
+			<textFormat index="0">%MADEWITHITUNES</textFormat>
+			<textJustification index="0">center</textJustification>
+		</element>
+		<element type="playlist">
+			<left parent="content">0</left>
+			<top parent="content">5</top>
+			<right parent="content">0</right>
+			<bottom parent="content">0</bottom>
+			<textSize>7</textSize>
+			<smallestSize>7</smallestSize>
+			<maxColumns>2</maxColumns>
+			<textColor index="0">000, 000, 000</textColor>
+			<textFormat index="0">%TRACKNUMBER.</textFormat>
+			<textJustification index="0">left</textJustification>
+			<textColor index="1">000, 000, 000</textColor>
+			<textFormat index="1">%COMBOTRACKNAMEANDARTIST</textFormat>
+			<textJustification index="1">left</textJustification>
+			<textJustification index="2">right</textJustification>
+			<overflowFormat>and %TRACKNUMBER more…</overflowFormat>
+		</element>
+		<element type="text">
+			<left parent="content">5</left>
+			<top parent="header">0</top>
+			<right parent="content">5</right>
+			<bottom kind="heightAbsoluteCenter" parent="header">0</bottom>
+			<textStyle>insertTracks</textStyle>
+			<textSize>12</textSize>
+			<textColor index="0">000, 000, 000</textColor>
+			<textFormat index="0">%COMBOPLAYLISTANDARTIST</textFormat>
+			<textJustification index="0">left</textJustification>
+		</element>
+	</cover>
+</theme>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>List of albums</themeName>
+	<themeExplanation>Prints albums from your selected playlist or library, sorted by artist. Does not print song titles.</themeExplanation>
+	<themeKind>albumlist</themeKind>
+	<themeInternalKind>playlist</themeInternalKind>
+	<themeSortOrder>2</themeSortOrder>
+	<themeMediaIndex>1</themeMediaIndex>
+	<albumlist>
+		<column>
+			<field>artistName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>albumName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<columnName># Items</columnName>
+			<field>trackNumber</field>
+			<width>25</width>
+		</column>
+		<column>
+			<columnName>Total Time</columnName>
+			<field>totalTime</field>
+			<width>50</width>
+		</column>
+	</albumlist>
+</theme>

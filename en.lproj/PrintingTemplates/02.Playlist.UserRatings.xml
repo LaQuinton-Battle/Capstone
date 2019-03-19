@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>User ratings</themeName>
+	<themeExplanation>Prints name, length, artist, album, and rating from the songs in your selected playlist or library. Prints in landscape orientation.</themeExplanation>
+	<themeKind>playlist</themeKind>
+	<themeSortOrder>2</themeSortOrder>
+	<themeMediaIndex>2</themeMediaIndex>
+	<playlist>
+		<column>
+			<trackIndex />
+			<width>10</width>
+		</column>
+		<column>
+			<field>trackName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>totalTime</field>
+			<width>40</width>
+		</column>
+		<column>
+			<field>albumName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>artistName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>genre</field>
+			<resizable />
+			<width>30</width>
+		</column>
+		<column>
+			<field>userRating</field>
+			<width>25</width>
+		</column>
+	</playlist>
+</theme>

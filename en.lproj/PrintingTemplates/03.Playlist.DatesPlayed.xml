@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>Dates played</themeName>
+	<themeExplanation>Prints name, length, artist, album, number of plays, and date from the songs in your selected playlist or library. Prints in landscape orientation.</themeExplanation>
+	<themeKind>playlist</themeKind>
+	<themeSortOrder>3</themeSortOrder>
+	<themeMediaIndex>2</themeMediaIndex>
+	<playlist>
+		<column>
+			<trackIndex />
+			<width>10</width>
+		</column>
+		<column>
+			<field>trackName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>totalTime</field>
+			<width>40</width>
+		</column>
+		<column>
+			<field>albumName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>artistName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>playDate</field>
+			<resizable />
+			<width>30</width>
+		</column>
+		<column>
+			<field>playCount</field>
+			<width>50</width>
+		</column>
+	</playlist>
+</theme>

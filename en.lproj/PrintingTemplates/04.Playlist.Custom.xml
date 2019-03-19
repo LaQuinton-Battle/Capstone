@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>Custom</themeName>
+	<themeExplanation>Prints the current view of the songs in your selected playlist or library. Use Page Setup to control orientation.</themeExplanation>
+	<themeKind>playlist</themeKind>
+	<themeSortOrder>4</themeSortOrder>
+	<themeMediaIndex>1</themeMediaIndex>
+	<playlist>
+	</playlist>
+</theme>

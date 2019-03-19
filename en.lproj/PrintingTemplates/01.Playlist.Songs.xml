@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<themeName>Songs</themeName>
+	<themeExplanation>Prints name, length, artist, and album from the songs in your selected playlist or library. Use Page Setup to control orientation.</themeExplanation>
+	<themeKind>playlist</themeKind>
+	<themeSortOrder>1</themeSortOrder>
+	<themeMediaIndex>1</themeMediaIndex>
+	<playlist>
+		<column>
+			<trackIndex />
+			<width>10</width>
+		</column>
+		<column>
+			<field>trackName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>totalTime</field>
+			<width>40</width>
+		</column>
+		<column>
+			<field>albumName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+		<column>
+			<field>artistName</field>
+			<resizable />
+			<width>50</width>
+		</column>
+	</playlist>
+</theme>
