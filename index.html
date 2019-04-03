@@ -1,38 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LWork</title>
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
-    <link rel="stylesheet" href="Styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LWork</title>
+  <link href="Styles/styles.css" rel="stylesheet">
+  <link href="Styles/chatbox.css" rel="stylesheet" type="text/css">
+  <link href="Styles/glider.min.css" rel="stylesheet" type="text/css">
+
 </head>
+<html>
 <body>
-    <div id="Navigation" 
-            class="container">
-      <ul>
-          <li><a href=".">Home</a></li>
-          <li><a href="Music/">Music</a></li>
-          <li><a href="Artwork/">Artwork</a></li>
-          <li><a href="Events/">Events</a></li>
-          <li><a href="SignUp/">SignUp</a></li>
-          <li><a href="Login/">Login</a></li>
-      </ul>
+
+<section class="container">
+
+  <button class="open-button" onclick="openform()">Messenger</button>
+
+  <div class="chat-popup" id="myform">
+    <form action="" class="form-container">
+      <h1>Chat</h1>
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message here.." name="msg"
+      required></textarea>
+      <button type="submit" class="btn" >Send</button>
+      <button type="button" class="btn cancel"
+      onclick="closeform()">Close</button>
+
+
+
+    </form>
+
+
+  </div>
+</section>
+
+    <!-- <div data-glide-el="controls">
+        <button data-glide-dir="<<">Start</button>
+        <button data-glide-dir=">>">End</button>
+      </div> -->
+
+      
+      
+      <!-- <div class="glide">
+        <div class="glide__track" data-glide-el="track">...</div>
+        
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+          </div>
+        </div> -->
+  
+  <div id="app">
+    <div id="container" mousemove="circleFollow($event)">  
+      <div class="nav">
+        
+      </div>
+      <div class="menu-container">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+
+      
+      <div class="logo">LW</div>
+      <div class="left-text">
+        <div>We all wanna be <span>great but</span></div>
+        <div>you can't<span> get there</span></div>
+        <div> by yourself<span> -Que</span></div>
+      </div>
+      
+      
+      
+      <div class="title">
+        <div>"We all wanna be great but you can't get there by yourself" - Que</div>
+        <div>LWork</div>
+      </div>
+      <button>Learn More</button>
+      
+      
+      <!-- <div id="Footer">
+        <h1>Help</h1>
+        <h2>Contact</h2>
+      </div>
     </div>
+  </div>
+   -->
+  <div class="glider-contain multiple">
 
-    <div id="Header" class=""></div>
+      <button class="glider-back">
+        <i class="left"></i>
+    </button>
+
+      <div class="glider">
+
+        <figure>
+          <blockquote>
+             <img src="https://i.scdn.co/image/fb7f27148a5a5696ee6aefef8cc38bd12f1c4c7d">
+          </blockquote>
+        </figure>
 
 
-    <div id="Content" class=""></div>
+        <figure>
+          <blockquote>
+             <img src="https://i.scdn.co/image/77eb7c17cafe5503b6e58227c90ce7a0ad8485e7">
+          </blockquote>
+        </figure>
 
-    <div id="Footer" class=""></div>
 
-    <div id="Slideshow" class= "img">
+        <figure>
+          <blockquote>
+             <img src="https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/50/ff/9d/50ff9dfa-e0b5-c137-11a1-51c02dcb1961/191924296324.jpg/600x600bf.png">
+          </blockquote>
+        </figure>
 
 
-    </div>
+        <figure>
+          <blockquote>
+             <img src="https://m.media-amazon.com/images/I/81BFnbh6nlL._SS500_.jpg">
+          </blockquote>
+        </figure>
 
-    
+
+        <figure>
+          <blockquote>
+             <img src="https://m.media-amazon.com/images/I/71Tb6DKFo3L._SS500_.jpg">
+          </blockquote>
+        </figure> 
+
+
+        <figure>
+          <blockquote>
+             <img src="https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/0d/94/ac/0d94ac52-bc3d-cf0f-a0ec-10a1ba175979/192914462316.jpg/268x0w.jpg">
+          </blockquote>
+        </figure> 
+
+
+        <figure>
+          <blockquote>
+             <img src="https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/ff/eb/52/ffeb52dc-7a71-9128-7d55-28540216b203/859730445625_cover.jpg/320x0w.jpg">
+          </blockquote>
+        </figure> 
+
+
+      <button class="glider-next">
+        <i class="right"></i>
+
+      </button>
+      <div id="bullets" class="glider-bullets"></div>
+
+      </div>
+  </div>
+
+  <script>
+    function openform(){
+      document.getElementById("myform").style.display="block";
+    }
+
+    function closeform(){
+      document.getElementById("myform").style.display="none";
+    }
+  </script>
+
+  
+<script src="glider.min.js"></script>
+
+<script>
+
+  new Glider(document.querySelector('.glider'), {
+    slideToShow: 2,
+    draggable: true, 
+    bullets: '#bullets',
+    arrows: {
+      prev: '.glider-back',
+      next: '.glider-next'
+    }
+  });  
+
+</script>
+
 </body>
 </html>
+
