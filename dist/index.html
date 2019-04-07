@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LWork</title>
-  <link href="/styles.691b5ed9.css" rel="stylesheet">
+  <link href="/swiper.min.d30ee49f.css" rel="stylesheet" type="text/css">
+  <link href="/styles.691b5ed9.css" rel="stylesheet" type="text/css">
   <link href="/chatbox.1b3d0c04.css" rel="stylesheet" type="text/css">
-  <link href="/glider.min.6b933c3b.css" rel="stylesheet" type="text/css">
 
-<script src="/styles.691b5ed9.js"></script><script src="/chatbox.1b3d0c04.js"></script><script src="/glider.min.6b933c3b.js"></script></head>
+<script src="/swiper.min.d30ee49f.js"></script><script src="/styles.691b5ed9.js"></script><script src="/chatbox.1b3d0c04.js"></script></head>
 <html>
 <body>
 
@@ -33,33 +34,9 @@
   </div>
 </section>
 
-    <!-- <div data-glide-el="controls">
-        <button data-glide-dir="<<">Start</button>
-        <button data-glide-dir=">>">End</button>
-      </div> -->
-
-      
-      
-      <!-- <div class="glide">
-        <div class="glide__track" data-glide-el="track">...</div>
-        
-        <div class="glide__bullets" data-glide-el="controls[nav]">
-          <button class="glide__bullet" data-glide-dir="=0"></button>
-          <button class="glide__bullet" data-glide-dir="=1"></button>
-            <button class="glide__bullet" data-glide-dir="=2"></button>
-          </div>
-        </div> -->
-  
+   
   <div id="app">
-    <div id="container" mousemove="circleFollow($event)">  
-      <div class="nav">
-        
-      </div>
-      <div class="menu-container">
-        <div class="line1"></div>
-        <div class="line2"></div>
-      </div>
-
+    
       
       <div class="logo">LW</div>
       <div class="left-text">
@@ -77,20 +54,27 @@
       <button>Learn More</button>
       
       
-      <!-- <div id="Footer">
-        <h1>Help</h1>
-        <h2>Contact</h2>
-      </div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"></div>
+          <div class="imgBox">
+            <img src="https://i.scdn.co/image/fb7f27148a5a5696ee6aefef8cc38bd12f1c4c7d">
+          </div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+  
+      <!-- Add Arrows -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
-  </div>
-   -->
-  <div class="glider-contain multiple">
-
-      <button class="glider-back">
-        <i class="left"></i>
-    </button>
-
-      <div class="glider">
+  
 
         <figure>
           <blockquote>
@@ -159,19 +143,23 @@ function closeform() {
 }</script>
 
   
-<script src="/glider.min.45243bc4.js"></script>
+<script src="/swiper.min.7753b6b6.js"></script>
 
-<script>new Glider(document.querySelector('.glider'), {
-  slideToShow: 2,
-  draggable: true,
-  bullets: '#bullets',
-  arrows: {
-    prev: '.glider-back',
-    next: '.glider-next'
+<!-- Initialize Swiper -->
+<script>var swiper = new Swiper('.swiper-container', {
+  effect: 'flip',
+  grabCursor: true,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
   }
 });</script>
 
-</div></div></body>
+
+</body>
 </html>
 
 </html>

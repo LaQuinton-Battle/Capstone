@@ -1,4 +1,4 @@
-.background-image {
+/* .background-image {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -17,7 +17,7 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
-}
+} */
 
 body {
   background: #262626;
@@ -26,7 +26,7 @@ body {
   overflow-y: scroll;
 
 }
-body #circle {
+/* body #circle {
   position: absolute;
   margin: auto;
   width: 13px;
@@ -38,7 +38,7 @@ body #circle {
   pointer-events: none;
   z-index: 100;
   
-}
+} */
 
 #app {
   position: absolute;
@@ -53,19 +53,19 @@ body #circle {
   overflow: hidden;
   z-index: -2;
 }
-#app #container {
+/* #app #container {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -2;
+  z-index: -2; */
 }
-#app #container:after {
+/* #app #container:after {
   content: '';
   position: absolute;
   width: 40%;
   height: 100%;
   background: #010101;
-  z-index: -1;
+  z-index: -1; */
 }
 #app .nav {
   position: absolute;
@@ -147,6 +147,8 @@ body #circle {
 #app .menu-container:hover div:nth-child(3) {
   top: 16px;
 }
+
+
 #app .logo {
   position: absolute;
   top: 52px;
@@ -179,7 +181,7 @@ body #circle {
 #app .left-text div span {
   color: rgba(255, 255, 255, 0.7);
 }
-#app .slide {
+/* #app .slide {
   position: absolute;
   top: 16%;
   left: 12%;
@@ -279,7 +281,7 @@ body #circle {
 #app .slide .image-container .slide-buttons div:nth-child(2) {
   background: #010101;
   left: 140px;
-}
+} */
 #app .title {
   position: absolute;
   top: 32%;
@@ -329,6 +331,27 @@ body #circle {
   text-align: right;
   letter-spacing: 5px;
   color: rgba(255, 255, 255, 0.9);
+}
+
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=/styles.691b5ed9.css.map */
