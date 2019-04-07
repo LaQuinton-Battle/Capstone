@@ -2,6 +2,11 @@
   "dependencies": {
     "@glidejs/glide": "github:glidejs/glide",
     "axios": "^0.18.0",
-    "index.js": "0.0.3"
+    "index.js": "0.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "swiper": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
   }
 }
